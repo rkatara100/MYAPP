@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+* {
+      margin: 0%;
+      padding: 0%;
+      font-family: "Roboto", sans-serif;
+      /* border: 1px solid greenyellow; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+nav {
+      background-color: rgb(44, 30, 242);
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* position: ; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+      background-color: rgb(255, 255, 255);
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.214);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header>a {
+      text-decoration: none;
+      color: black;
+      margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+      padding: 4vmax 8vmax;
+      background: url("https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/dd/95/7e/dd957e3a-abd3-da8a-2211-726a67108938/source/256x256bb.jpg");
+      width: 70%;
+      margin: auto;
+      min-height: 100vh;
+      box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container>h1 {
+      color: white;
+      text-align: center;
+      box-shadow: 0px 0px 0.4px red;
+      margin: 30px;
+      font-size: 4rem;
+}
+
+.container>form {
+
+      display: flex;
+      flex-direction: column;
+}
+
+input,
+textarea,
+button {
+      padding: 20px;
+      outline: none;
+      margin: 10px 0px;
+      border: 1px solid rgba(0, 0, 0, 0.214);
+      border-radius: 5px;
+      font-size: 1.2rem;
+}
+
+
+button {
+      border: none;
+      cursor: pointer;
+      background-color: black;
+      color: white;
+
+}
+
+button:hover {
+
+      transition: all ease.4s;
+      background-color: blueviolet;
+}
+
+
+/* next section */
+.task {
+      display: flex;
+      align-items: center;
+      background-color: whitesmoke;
+      padding: 20px;
+      border-radius: 5px;
+      margin: 20px 0px;
+
+}
+
+.task>div {
+      width: 100%;
+}
+
+.task button {
+      border-radius: 100%;
+      height: 20px;
+      width: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.6rem;
+}
+
+.task button:hover {
+      background-color: crimson;
+}
+
+
+.about {
+      background-color: coral;
+      width: 100%;
+      height: 100vh;
+}
+
+.contact {
+      background-color: rgb(124, 172, 62);
+      width: 100%;
+      height: 100vh;
+}
+
+.user {
+      background-color: rgb(165, 80, 255);
+      width: 100%;
+      height: 100vh;
 }
