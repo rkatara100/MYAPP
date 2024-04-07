@@ -1,6 +1,11 @@
+
+![Screenshot 2024-04-07 075034](https://github.com/rkatara100/MYAPP/assets/110257873/c87b64ec-24ed-4fd6-9536-d4625196fd41)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
